@@ -2,7 +2,7 @@
 	import Header from './Header.svelte';
 	import './styles.css';
 	import Intro from './Intro/Intro.svelte';
-	import Projects from './projectList.svelte'
+	import Projects from './components/projectList.svelte'
 </script>
 
 <div class="app">
@@ -10,6 +10,7 @@
 
 	<Intro />
 	<Projects />
+
 	<footer>
 		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
 	</footer>
